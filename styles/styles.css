@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat';
+
+}
+.header{
+    background-color:#6C4796;
+    padding:16px;
+}
+.desarrollar{
+    font-size:30px;
+    font-weight:900;
+}
+a{
+    font-size:13px;
+}
+.enlaces a{
+    
+
+}
+
+@media(min-width:768px){
+    .desarrollar{
+        font-size:60px;
+        font-weight:900;
+        z-index:100;
+    }
+}
+
+
+.background{
+    background-image: url(../img/online-training\ 1.png);
+    background-position:top;
+    background-size:cover;
+    height:50vh;
+}
+@media(min-width:768px){
+    .background{
+        background-image: url(../img/online-training\ 1.png);
+        background-position:top;
+        position:relative;
+        height:100vh;
+    }
+}
+@media(min-width:1200px){
+    .background{
+        background-image: url(../img/online-training\ 1.png);
+        background-position:top;
+        position:relative;
+        height:100vh;
+        bottom:30px;
+        left:62px;
+    }  
+}
+
+
+a{
+    color:#2F2E30;
+}
+.enlaces{
+    margin-top:90px;
+    display:block;
+}
+.parrafo-header{
+    font-size:13px;
+    font-weight:600;
+}
+.boton{
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+.parrafo-grid{
+    width:70%;
+    margin:0 auto;
+    font-size:15px;
+}
+.atencion{
+    text-align:center;
+}
+@media(min-width:768px){
+    .atencion{
+        text-align:left;
+    }
+}
+@media(min-width:768px){
+    .ellipse19{
+        position:absolute;
+        left:500px;
+        bottom:300px;
+    }
+}
+@media(min-width:768px){
+    .ellipse22{
+        position:absolute;
+        left:10px;
+        bottom:50px;
+    }
+}
+@media(min-width:768px){
+    .ellipse20{
+        position:absolute;
+        left:400px;
+        bottom:-70px;
+    }
+}
+@media(min-width:768px){
+    .ellipse-dos{
+        position:absolute;
+       
+    }
+}
+@media(min-width:768px){
+    .ellipse-col{
+        position:absolute;
+        bottom:-50px;
+        left:-50px;
+    }
+}
+.posicionar{
+    position:relative;
+    bottom:30px;
+}
+                        /**SECCION NUESTROS SERVICIOS CARDS*/
+
+.servicios{
+    font-size:40px;
+}
+.servicios span{
+    color:#6C4796;
+}
+.servicios-parrafo{
+    font-size:13px;
+    font-weight:bold;
+    width:100%;
+    line-height:24px;
+}
+@media(min-width:768px){
+    .servicios-parrafo{
+        font-size:13px;
+        font-weight:bold;
+        width:40%;
+        margin:0 auto;
+    }
+}
+.heading-card{
+    font-size:18px;
+    font-weight:700;
+}
+.parrafo-card{
+    font-size:13px;
+    font-weight:600;
+    color:#2F2E30;
+    line-height:24px;
+}
+.borde{
+    border: 0.5px solid #2F2E30;
+    border-radius:10px;
+}
+.flecha{
+    position:relative;
+    left:20px;
+}
+.vectores{
+    position:relative;
+    right:40px;
+    top:20px;
+
+} 
+.color{
+    color:#6C4796
+}  
+
+
+
+                        /*SECCION TRABAJAR*/
+.trabajar{
+    font-size:40px;
+    width:100%;
+}
+.trabajardos{
+    font-size:40px;
+}
+@media(min-width:768px){
+    .trabajar{
+        width:60%;
+        line-height:54px;
+    }
+}
+.trabajar-parrafo{
+    font-size:13px;
+    color:#2F2E30;
+    line-height:24px;
+}
+.botoncv{
+    background-color:#6C4796;
+    color:#fff;
+    border-radius:5px;
+    border: none;
+    padding: 15px 32px;
+}
+
+.imagen-trabajo{
+    text-align:center;
+}
+.trabajo-descripcion{
+    text-align: unset;
+}
+@media(min-width:768px){
+    .trabajo-descripcion{
+        text-align:center;
+    }
+}
+
+/***PROCESO*/
+.proceso-heading{
+    font-size:40px;
+    line-height:54px;
+}
+
+.parrafo-carta{
+    font-size:13px;
+    line-height:24px;
+}
