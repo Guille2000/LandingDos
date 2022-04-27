@@ -322,6 +322,14 @@ a {
         left:1000px;
     }
 }
+@media(min-width:1200px){
+    .esperar-elipse{
+        position:relative;
+        top:400px;
+        left:1080px;
+        z-index:100;
+    }
+}
 /**SECCION NUESTROS SERVICIOS CARDS*/
 
 .servicios {
@@ -462,5 +470,116 @@ a {
         line-height:24px;
         width:40%;
         margin:0 auto;
+    }
+}
+.esperar-bg{
+    background-color: #6C4796;
+    border-radius: 10px;
+    color:#fff;
+}
+
+@media(min-width:992px){
+    .esperar-heading{
+        font-size:40px;
+        line-height:54px;
+    }
+}
+
+.esperar-parrafo{
+    font-size:13px;
+    line-height:24px;
+    text-align: center;
+}
+@media(min-width:768px){
+    .esperar-parrafo{
+    text-align: unset;
+    }
+}
+.esperar-img{
+    position:relative;
+    bottom:130px;
+}
+.trabajos{
+    margin-top:200px;
+}
+.trabajos-heading{
+    font-size:40px;
+    line-height:54px;
+}
+.trabajos h3{
+    font-size:18px;
+    font-weight:700;
+}
+.testimonio-heading{
+    font-size:40px;
+    line-height:54px;
+}
+.testimonio-parrafo{
+    font-size:13px;
+    line-height:24px;
+}
+
+.nombre-testimonio{
+    font-size:16px;
+    line-height:21.94px;
+}
+.testimonio-cargo{
+    font-size:13px;
+    line-height: 24px;
+}
+.cita{
+    position:relative;
+    bottom:30px;
+}
+
+
+
+
+
+
+.footer{
+    background-color:#6C4796;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img-logo{
+    margin-bottom:-5rem;
+}
+.linea{
+    width:65%;
+    margin:0 auto;
+}
+/**ELIPSES DE TRABAJOS*/
+@media(min-width:1200px){
+    .elipse-trabajo{
+        position:relative;
+        top:230px;
+        margin-bottom:-5rem;
+    }
+}
+@media(min-width:1200px){
+    .elipse-galeria{
+        position:relative;
+        bottom:40px;
+        left:240px;
+        margin-bottom:-5rem;
+    }
+}
+@media(min-width:1200px){
+    .elipse-btn{
+        position:relative;
+        bottom:40px;
+        left:1000px;
+        margin-bottom:-5rem;
+    }
+}
+@media(min-width:1200px){
+    .elipse-testimonios{
+        position:relative;
+        bottom:350px;
+        left:10px;
+        margin-bottom:-5rem;
     }
 }
