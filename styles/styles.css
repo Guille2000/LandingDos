@@ -13,6 +13,14 @@ body {
     background-color: #6C4796;
     padding: 16px;
 }
+.btn-centrar{
+    text-align:center;
+}
+@media(min-width:992){
+    .btn-centrar{
+        text-align:left;
+    }
+}
 
 .desarrollar {
     font-size: 30px;
@@ -97,59 +105,86 @@ a {
     }
 }
 
-@media(min-width:768px) {
-    .ellipse19 {
-        position: absolute;
-        left: 500px;
-        bottom: 300px;
-    }
-}
 
-@media(min-width:768px) {
-    .ellipse22 {
-        position: absolute;
-        left: 10px;
-        bottom: 50px;
-    }
-}
-
-@media(min-width:768px) {
-    .ellipse20 {
-        position: absolute;
-        left: 400px;
-        bottom: -70px;
-    }
-}
-
-@media(min-width:768px) {
-    .ellipse-dos {
-        position: absolute;
-
-    }
-}
-
-@media(min-width:768px) {
-    .ellipse-col {
-        position: absolute;
-        bottom: -50px;
-        left: -50px;
-       
-    }
-}
 
 .posicionar {
     position: relative;
     bottom: 30px;
 }
 
-/**SECCION NUESTROS SERVICIOS CARDS*/
-
-.servicios {
-    font-size: 40px;
-    padding:10px;
+/**ELIPSES*/
+.ellipse19{
+    position: relative;
+    left:90px;
+    margin-bottom:25px;
+}
+@media(min-width:800px){
+    .ellipse19 {
+        position: relative;
+        left:280px;
+        bottom: 100px;
+    }
+}
+@media(min-width:768px){
+    .ellipse19 {
+        position: relative;
+        bottom: 100px;
+        left:260px;
+    }
+}
+@media(min-width:1200px) {
+    .ellipse19 {
+        position: relative;
+        left:400px;
+        bottom: 100px;
+        margin-bottom:-10rem;
+    }
 }
 
-@media(min-width:768px){
+@media(min-width:1200px) {
+    .ellipse22 {
+        position: relative;
+        left: 10px;
+        bottom: 50px;
+    }
+}
+@media(min-width: 360px){
+    .ellipse20{
+        position:relative;
+        left:150px;
+        margin-bottom:15px;
+    }
+    }
+@media(min-width:1200px) {
+    .ellipse20 {
+        position: relative;
+        left: 400px;
+        bottom: 70px;
+    }
+}
+
+@media(min-width:992px) {
+    .ellipse-dos {
+        position: relative;
+
+    }
+}
+
+@media(min-width:992px) {
+    .ellipse-col {
+        position: relative;
+        bottom: -400px;
+        left: -100px;
+       
+    }
+}
+@media(min-width: 360px){
+.eclipse-servicios{
+    position:relative;
+    left:190px;
+}
+}
+@media(min-width:1200px){
     .eclipse-servicios{
         position:relative;
         left:310px;
@@ -157,19 +192,68 @@ a {
         
     }
 }
-@media(min-width:768px){
+@media(min-width:320px){
+    .eclipse-ui{
+        position:relative;
+        top:50px;
+        left:120px;
+    }
+}
+
+@media(min-width:992px){
     .eclipse-ui{
         position:relative;
         top:50px;
     }
 }
+@media(min-width:320px){
+    .elipseveinteuno{
+        position:relative;
+        right:-100px;
+    }
+}
 @media(min-width:768px){
+    .elipseveinteuno{
+        position:relative;
+        left:300px;
+    }
+} 
+@media(min-width:800px){
+    .elipseveinteuno{
+        position:relative;
+        left:350px;
+    }
+}
+@media(min-width:992px){
     .elipseveinteuno{
         position:relative;
         left:1050px;
     }
 }
+
+@media(min-width:320px){
+    .ellipse-veinte{
+        position:relative;
+        right:-100px;
+        bottom:-40px;
+    }
+}
 @media(min-width:768px){
+    .ellipse-veinte{
+        position:relative;
+        right:-300px;
+        bottom:-30px;
+    }
+}
+@media(min-width:800px){
+    .ellipse-veinte{
+        position:relative;
+        right:-310px;
+        bottom:-30px;
+    }
+}
+
+@media(min-width:1200px){
     .ellipse-veinte{
         position:relative;
         right:100px;
@@ -177,40 +261,73 @@ a {
         margin-bottom:-5rem;
     }
 }
-@media(min-width:768px){
+@media(min-width:320px){
+    .elipsedieznueve{
+        position:relative;
+        bottom:-20px;
+        left:40px;
+    }
+}
+
+@media(min-width:992px){
     .elipsedieznueve{
         position:relative;
         top:70px;
         left:100px;
     }
 }
-@media(min-width:768px){
+@media(min-width:992px){
     .eclipse-proyecto{
         position:relative;
         left:530px;
     }
 }
-@media(min-width:768px){
+@media(min-width:320px){
     .elipse-comienza{
         position:relative;
         top:50px;
         left:50px;
     }
 }
-@media(min-width:768px){
+@media(min-width:992px){
+    .elipse-comienza{
+        position:relative;
+        top:50px;
+        left:50px;
+    }
+}
+@media(min-width:320px){
+    .elipsedosdos{
+        position:relative;
+        bottom:60px;
+        left:120px;
+    }
+}
+@media(min-width:1200px){
     .elipsedosdos{
         position:relative;
         bottom:-90px;
         left:110px;
     }
 }
-@media(min-width:768px){
+@media(min-width:320px){
+    .elipse-proceso{
+        position:relative;
+        left:100px;
+    }
+}
+@media(min-width:1200px){
     .elipse-proceso{
         position:relative;
         left:1000px;
     }
 }
+/**SECCION NUESTROS SERVICIOS CARDS*/
 
+.servicios {
+    font-size: 40px;
+    padding:10px;
+}
 
 .servicios span {
     color: #6C4796;
